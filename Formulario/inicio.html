@@ -1,0 +1,203 @@
+<html>
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página web</title>
+</head>
+<body>
+    <h1>Mi primera página web</h1>
+    <p>Bienvenidos, esta es mi página web</p>
+    <p>Nombres: Gilson Tenemea</p>
+    <p>Edad: 19 años</p>
+    <p>Asignatura: Diseño de Interfaz</p>
+
+    <h2>Elementos de HTML</h2>
+    <a href="http://tecazuay.edu.ec">Acceso a la página institucional</a>
+    <br>
+    <img src="Img.png" width="100" height="100" alt="Descripción">
+
+    <h3>Elementos de Vistas</h3>
+    <ul>
+        <li>Producto 1</li>
+        <li>Producto 2</li>
+        <li>Producto 3</li>
+        <li>Producto 4</li>
+        <li>Producto 5</li>
+    </ul>
+    <ol>
+        <li>Freddy 1</li>
+        <li>Gilson 2</li>   
+        <li>Mauricio 3</li>
+        <li>David 3</li>
+    </ol>
+
+    <h4>Elementos de tabla</h4>
+    <table border="1" style="border:black;margin: 1%; border-style: solid;">
+        <thead>
+            <tr>
+                <th colspan="8">Notas de las asignaturas de M3A</th>
+            </tr>
+            <tr>
+                <td>Estudiante</td>
+                <td>Diseño de Interfaz</td>
+                <td>Base de Datos</td>
+                <td>Programación Visual</td>
+                <td>Inglés</td>
+                <td>Cálculo Diferencial e Integral</td>
+                <td>Fundamentos de Administración</td>
+                <td>Promedio</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="border:blueviolet;margin: 1%; border-style: solid;">
+                <td>Gilson Tenemea</td>
+                <td>8</td>
+                <td>6</td>
+                <td>8</td>
+                <td>7</td>
+                <td>9</td>
+                <td>8</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Mauricio Fajardo</td>
+                <td>8</td>
+                <td>7</td>
+                <td>9</td>
+                <td>8</td>
+                <td>6</td>
+                <td>8</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>Freddy Gómez</td>
+                <td>8</td>
+                <td>9</td>
+                <td>6</td>
+                <td>8</td>
+                <td>5</td>
+                <td>7</td>
+                <td>7.5</td>
+            </tr>
+            <tr>
+                <td>David López</td>
+                <td>6</td>
+                <td>8</td>
+                <td>9</td>
+                <td>1</td>
+                <td>10</td>
+                <td>8</td>
+                <td>8.71</td>
+            </tr>
+            <tr>
+                <td>Carmen Neira</td>
+                <td>8</td>
+                <td>7</td>
+                <td>9</td>
+                <td>8</td>
+                <td>6</td>
+                <td>8</td>
+                <td>7.85</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Elementos de formulario</h3>
+    <form action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese el nombre">
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese el apellido">
+        <br>
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad">
+        <br>
+        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+        <br>
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo">
+        <br>
+        <label for="celular">Celular:</label>
+        <input type="tel" id="celular" name="celular">
+        <br>
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion">
+        <br>
+        <label for="estado_civil">Estado Civil:</label>
+        <select name="estado_civil" id="estado_civil">
+            <option value="1">Casado</option>
+            <option value="2">Soltero</option>
+            <option value="3">Divorciado</option>
+            <option value="4">Viudo</option>
+            <option value="5">Unión Libre</option>
+        </select>
+        <br>
+        <label for="discapacidad">Tiene alguna discapacidad:</label>
+        <label><input type="radio" name="discapacidad" id="discapacidad" value="1"> Sí</label>
+        <label><input type="radio" name="discapacidad" id="discapacidad" value="2"> No</label>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h4>Formulario en tabla</h4>
+    <table border="1" style="border:black;margin: 1%; border-style: solid;">
+        <tr>
+            <td>Datos</td>
+            <td>Respuesta</td>
+        </tr>
+        <tr>
+            <td><label for="nombre2">Nombre:</label></td>
+            <td><input type="text" id="nombre2" name="nombre2" placeholder="Ingrese el nombre"></td>
+        </tr>
+        <tr>
+            <td><label for="apellido2">Apellido:</label></td>
+            <td><input type="text" id="apellido2" name="apellido2" placeholder="Ingrese el apellido"></td>
+        </tr>
+        <tr>
+            <td><label for="edad2">Edad:</label></td>
+            <td><input type="number" id="edad2" name="edad2"></td>
+        </tr>
+        <tr>
+            <td><label for="fecha_nacimiento2">Fecha de Nacimiento:</label></td>
+            <td><input type="date" id="fecha_nacimiento2" name="fecha_nacimiento2"></td>
+        </tr>
+        <tr>
+            <td><label for="correo2">Correo:</label></td>
+            <td><input type="email" id="correo2" name="correo2"></td>
+        </tr>
+        <tr>
+            <td><label for="celular2">Celular:</label></td>
+            <td><input type="tel" id="celular2" name="celular2"></td>
+        </tr>
+        <tr>
+            <td><label for="direccion2">Dirección:</label></td>
+            <td><input type="text" id="direccion2" name="direccion2"></td>
+        </tr>
+        <tr>
+            <td><label for="estado_civil2">Estado Civil:</label></td>
+            <td>
+                <select name="estado_civil2" id="estado_civil2">
+                    <option value="1">Casado</option>
+                    <option value="2">Soltero</option>
+                    <option value="3">Divorciado</option>
+                    <option value="4">Viudo</option>
+                    <option value="5">Unión Libre</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="discapacidad2">Tiene alguna discapacidad:</label></td>
+            <td>
+                <label><input type="radio" name="discapacidad2" id="discapacidad2" value="1"> Sí</label>
+                <label><input type="radio" name="discapacidad2" id="discapacidad2" value="2"> No</label>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button type="submit">Enviar</button></td>
+        </tr>
+    </table>
+</body>
+    </html> 
